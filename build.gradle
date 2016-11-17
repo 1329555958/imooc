@@ -14,7 +14,7 @@ buildscript {
 group 'com.imooc.springboot'
 version '1.0-SNAPSHOT'
 
-
+apply plugin: 'java'
 apply from: "$rootDir/dependencies.gradle"
 
 configure(allprojects) { project ->
