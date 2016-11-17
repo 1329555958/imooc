@@ -2,7 +2,7 @@ ext {
     jacksonVersion = '2.7.5'
     springVersion = "4.2.5.RELEASE"
     springBootVersion = '2.0.0.BUILD-SNAPSHOT'
-
+    rpcVersion = '1.4.6'
     libs = [
             common    : [
                     "commons-codec:commons-codec:1.8",
@@ -25,6 +25,9 @@ ext {
                     "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}",
                     "com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}"
 //                    ,"com.fasterxml.jackson.dataformat:jackson-dataformat-xml:${jacksonVersion}"
+            ],
+            jsonrpc   : [
+                    "com.github.briandilley.jsonrpc4j:jsonrpc4j:${rpcVersion}"
             ],
             test      : [
                     "org.springframework.boot:spring-boot-starter-test:${springBootVersion}",

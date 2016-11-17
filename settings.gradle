@@ -1,3 +1,6 @@
 rootProject.name = 'imooc'
 include 'rpc-server'
+include 'rpc-inf'
+include 'rpc-client'
+include 'account-service'
 
