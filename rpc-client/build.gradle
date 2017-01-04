@@ -1,5 +1,0 @@
-dependencies {
-    compile project(":rpc-inf")
-    compile("org.springframework.boot:spring-boot-devtools")
-    compile project(":account-service")
-}
